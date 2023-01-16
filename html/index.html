@@ -1,0 +1,46 @@
+<title>Search Item</title>
+<head>
+    
+    <LINK href="..\CSS\style.css" rel="stylesheet" type="text/css"></LINK>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="ShoppingCart.html">Shopping Cart</a></li>
+            <li><a href="EnterItem.html">Enter Item in System</a></li>
+        </ul>
+    </nav>
+    <h1><u>Online store</u></h1>
+</head>
+
+<body class="search">
+    <input type="text" name="search" id="searchbar" placeholder="Search">
+
+    <select name="supplierSearch" id="supplierSearchFilter">
+        <option value="anySupplier">Any Supplier</option>
+        <option value="Supplier1">Supplier 1</option>
+        <option value="Supplier2">Supplier 2</option>
+        <option value="Supplier3">Supplier 3</option>
+    </select>
+
+    <select name="priceRangeSearch" id="priceRangeSearchFilter">
+        <option value="anyPrice">Any price</option>
+        <option value="0-10$">0-10$</option>
+        <option value="10-50$">10-50$</option>
+        <option value="50$+">50+$</option>
+
+    </select>
+
+    <select name="ratingSearch" id="ratingSearchFilter">
+        <option value="Any rating">Any rating</option>
+        <option value="1star">⭐+</option>
+        <option value="2star">⭐⭐+</option>
+        <option value="3star">⭐⭐⭐+</option>
+        <option value="4star">⭐⭐⭐⭐+</option>
+        <option value="5star">⭐⭐⭐⭐⭐</option>
+    </select>
+
+    <button type="submit">🔍</button>
+</body>
