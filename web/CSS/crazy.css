@@ -1,0 +1,111 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+@keyframes textcolor {
+    0% {
+       color : #eeeeee
+    }
+
+    30% {
+        color: #2300a1
+    }
+
+    60% {
+        color: #97eb0f
+    }
+
+    90% {
+        color: rgb(112, 51, 255)
+    }
+
+    100% {
+        color: #00ec62
+    }
+}
+@keyframes linecolor {
+    0% {
+       color : #3a0f0f
+    }
+
+    30% {
+        color: #d3c7ff
+    }
+
+    60% {
+        color: #0fcaeb
+    }
+
+    90% {
+        color: rgb(64, 132, 177)
+    }
+
+    100% {
+        color: #c9fcde
+    }
+}
+label{
+    -webkit-animation: linecolor 10s infinite;
+    animation: linecolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+body {
+    -webkit-animation: bgcolor 2s infinite;
+    animation: bgcolor 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.form {
+    margin: 0 auto;
+    width: 210px;
+}
+
+.form label{
+    display: inline-block;
+    text-align: right;
+    float: left;
+}
+
+.form input{
+    display: inline-block;
+    text-align: left;
+    float: right;
+}
+hr {
+    -webkit-animation: linecolor 2s infinite;
+    animation: linecolor 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    border: 10px solid;
+    border-radius: 5px;
+  }
+
+h1 {
+
+    -webkit-animation: textcolor 4s infinite;
+    animation: textcolor 2s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+
+
+
